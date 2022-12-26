@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="60dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/musiclogo" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/songName"
+            android:layout_width="290dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/ubuntu"
+            android:gravity="center"
+            android:text="This is a test name, it will show the"
+            android:textColor="@color/teal_700"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</RelativeLayout>
